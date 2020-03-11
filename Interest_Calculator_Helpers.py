@@ -8,6 +8,17 @@ class Interest_Calculator_Helpers:
     def __init__(self):
         pass
 
+    def interest_calc(self, principal_amount, interest_rate):
+        """
+
+        :param principal_amount:
+        :param interest_rate:
+        :return:
+        """
+        interest_amount = None
+
+        return interest_amount
+
     def calc_interest_amount(self, start_date, end_date, interest_rate, period, principal_amount):
         """
         find number of days, weeks, months, years between start and end_date
@@ -20,8 +31,9 @@ class Interest_Calculator_Helpers:
         :return: calculated interest_amount , maturity_amount (principal+interest_amount)
         """
 
-        interest_amount = None
+        total_interest_amount = None
         maturity_amount = None
 
-        return interest_amount, maturity_amount
+
+        return total_interest_amount, maturity_amount
 

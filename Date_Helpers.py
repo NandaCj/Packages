@@ -78,6 +78,18 @@ class Date_Helpers:
         next_day = ''
         return next_day
 
+    def get_months_between(self, start_date, end_date):
+        pass
+
+    def get_years_between(self, start_date, end_date):
+        pass
+
+    def get_weeks_between(self, start_date, end_date):
+        pass
+
+    def get_days_between(self, start_date, end_date):
+        pass
+
 
 if __name__ == '__main__':
     Test_Date = '01-Jan-2018'
